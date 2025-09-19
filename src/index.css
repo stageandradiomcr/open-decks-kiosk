@@ -2,17 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-<<<<<<< HEAD
-body {
-  font-family: system-ui, sans-serif;
-=======
-/* Optional: better touch behavior on iPad kiosks */
 html, body, #root {
   height: 100%;
 }
+
 body {
-  @apply bg-black text-white;
+  background: #000;
+  color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
->>>>>>> 5c38c9d (Initial commit: Stage & Radio Open Decks kiosk)
+  touch-action: manipulation;
 }

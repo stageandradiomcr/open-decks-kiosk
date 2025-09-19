@@ -2,12 +2,7 @@
   "compilerOptions": {
     "composite": true,
     "module": "ESNext",
-<<<<<<< HEAD
-    "moduleResolution": "Node",
-    "types": ["node"]
-=======
     "moduleResolution": "Bundler"
->>>>>>> 5c38c9d (Initial commit: Stage & Radio Open Decks kiosk)
   },
   "include": ["vite.config.ts"]
 }
